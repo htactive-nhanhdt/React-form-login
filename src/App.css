@@ -2,9 +2,6 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-}
 
 .App-header {
   background-color: #282c34;
@@ -14,9 +11,30 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: gray;
+
+}
+.login {
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 20px ;
+  background-color: burlywood;
+}
+.login input{
+  width: 100%;
+}
+.login h2 {
+  text-transform: uppercase;
 }
 
-.App-link {
-  color: #09d3ac;
+.card-title {
+  color: black;
 }
+.card-text {
+  color: #282c34;
+}
+.card-body .sub-title {
+  font-weight: bold;
+  color: blueviolet;
+}
+
